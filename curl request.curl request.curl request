@@ -1,0 +1,38 @@
+Debemos cambiar las variables entre llaves por los valores adecuados
+
+curl -X POST -u "apikey:{apikey}" \
+"{url}/v1/analyze?version=2019-07-12" \
+--header "Content-Type: application/json" \
+--data '{
+  "url": "{url}",
+  "features": {
+    "sentiment": {},
+    "categories": {},
+    "concepts": {},
+    "entities": {},
+    "keywords": {}
+  }
+}'
+
+URL sugerida: https://www.lonelyplanet.es/blog/best-in-travel-2019-los-10-mejores-destinos-calidad-precioç
+
+Puedo analizar de igual forma un texto y del mismo traer el sentimiento asignado a cada entidad:
+
+curl -X POST -u "apikey:{apikey}" \
+"{url}/v1/analyze?version=2019-07-12" \
+--request POST \
+--header "Content-Type: application/json" \
+--data '{
+  "text": "Amo las manzanas, odio las naranjas",
+  "features": {
+    "sentiment": {
+      "targets": [
+        "manzanas",
+        "naranjas",
+      ]
+    },
+    "keywords": {
+      "emotion": true
+    }
+  }
+}'
