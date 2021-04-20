@@ -1,0 +1,39 @@
+Model Id Discovery : 8ad594e2-7251-48d8-bfa5-f826087d6bb6
+
+Model Id NLU: e0770be2-2601-40e2-acb7-188c374786bc
+
+Personalizando modelos con NLU
+
+https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-customizing
+
+
+Guardar en parameters.json  
+
+  {
+    "url": "www.trivago.es",
+    "features": {
+      "categories": {
+        "model": "e0770be2-2601-40e2-acb7-188c374786bc"
+      },
+      "entities": {
+        "model": "e0770be2-2601-40e2-acb7-188c374786bc"
+      },
+      "relations": {
+        "model": "e0770be2-2601-40e2-acb7-188c374786bc"
+      }
+    }
+  }
+
+Ejemplo de curl:
+
+  curl --user "apikey:{apikey}" \
+  "{url}/v1/analyze?version=2019-07-12" \
+  --request POST \
+  --header "Content-Type: application/json" \
+  --data @parameters.json
+  
+  curl --user "apikey:ALBdvclZ4-9pEo8yUYeJhaE_DMbx2P3jSgcC7F0iQPIV" \
+  "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/eb6560e0-75a9-4e3c-8edd-066da45e71e4/v1/analyze?version=2019-07-12" \
+  --request POST \
+  --header "Content-Type: application/json" \
+  --data @parameters.json

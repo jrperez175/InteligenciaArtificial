@@ -1,0 +1,36 @@
+https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-output
+
+curl -X POST -u "apikey:{apikey}" \
+--header "Content-Type: audio/flac" \
+--data-binary @{path_to_file}audio-file.flac \
+"{url}/v1/recognize?model=es-MX_BroadbandModel"
+
+model= lenguaje del audio
+Content-Type: Tipo de audio
+keywords=%22isaac%22& --Biuscar plabra clave dentro del audio
+keywords_threshold=0.5" -- A partir de que certeza la identifico
+El keywords Al parecer no funciona con windos
+
+curl -X POST -u "apikey:SzwSI2I0VACQMYGoSSLgPvrLU1e7iVoeG4NogQZEta9W" \
+--header "Content-Type: audio/flac" \
+--data-binary @audio-file2.flac \
+"https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/e35b45b0-2372-4d0d-8fa3-e8468df983c2/v1/recognize?model=es-CO_BroadbandModel"
+
+
+curl -X POST -u "apikey:SzwSI2I0VACQMYGoSSLgPvrLU1e7iVoeG4NogQZEta9W" \
+--header "Content-Type: audio/flac" \
+--data-binary @audio-file.flac \
+"https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/e35b45b0-2372-4d0d-8fa3-e8468df983c2/v1/recognize?model=es-CO_BroadbandModel&keywords=isaac%2Credes&keywords_threshold=0.5"
+
+Windows
+
+curl -X POST -u "apikey:SzwSI2I0VACQMYGoSSLgPvrLU1e7iVoeG4NogQZEta9W" ^
+--header "Content-Type: audio/flac" ^
+--data-binary @audio-file2.flac ^
+"https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/e35b45b0-2372-4d0d-8fa3-e8468df983c2/v1/recognize?model=es-CO_BroadbandModel&smart_formatting=true"
+
+
+curl -X POST -u "apikey:SzwSI2I0VACQMYGoSSLgPvrLU1e7iVoeG4NogQZEta9W" ^
+--header "Content-Type: audio/flac" ^
+--data-binary @audio-file.flac ^
+"https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/e35b45b0-2372-4d0d-8fa3-e8468df983c2/v1/recognize?model=es-CO_BroadbandModel&keywords=isaac%2Chola&keywords_threshold=0.5"

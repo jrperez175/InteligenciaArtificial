@@ -1,0 +1,407 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 3389,
+    "features": 5
+  },
+  "sentiment": {
+    "document": {
+      "score": 0.565452,
+      "label": "positive"
+    }
+  },
+  "retrieved_url": "https://www.unotv.com/noticias/portal/tecnologia/detalle/conoce-a-cimon-primer-astronauta-hecho-de-inteligencia-artificial-394114/",
+  "language": "es",
+  "keywords": [
+    {
+      "text": "proyecto conjunto de IBM",
+      "relevance": 0.675815,
+      "count": 1
+    },
+    {
+      "text": "Estación Espacial Internacional",
+      "relevance": 0.657411,
+      "count": 2
+    },
+    {
+      "text": "emociones humanas",
+      "relevance": 0.629909,
+      "count": 3
+    },
+    {
+      "text": "nueva versión",
+      "relevance": 0.612598,
+      "count": 1
+    },
+    {
+      "text": "nuevo CIMON",
+      "relevance": 0.592683,
+      "count": 1
+    },
+    {
+      "text": "Centro Aeroespacial Alemán",
+      "relevance": 0.585919,
+      "count": 1
+    },
+    {
+      "text": "primera versión",
+      "relevance": 0.572646,
+      "count": 1
+    },
+    {
+      "text": "asistente científico",
+      "relevance": 0.568795,
+      "count": 2
+    },
+    {
+      "text": "leve sonrisa",
+      "relevance": 0.562711,
+      "count": 1
+    },
+    {
+      "text": "compañero empático",
+      "relevance": 0.543548,
+      "count": 1
+    },
+    {
+      "text": "Matthias Biniok",
+      "relevance": 0.54233,
+      "count": 2
+    },
+    {
+      "text": "curioso astronauta",
+      "relevance": 0.538014,
+      "count": 1
+    },
+    {
+      "text": "nueva misión",
+      "relevance": 0.537602,
+      "count": 1
+    },
+    {
+      "text": "CIMON",
+      "relevance": 0.537041,
+      "count": 4
+    },
+    {
+      "text": "IBM Watson Assistant",
+      "relevance": 0.536753,
+      "count": 1
+    },
+    {
+      "text": "emociones humanas de los astronautasFoto",
+      "relevance": 0.534325,
+      "count": 1
+    },
+    {
+      "text": "tecnologías de Inteligencia Artificial",
+      "relevance": 0.533094,
+      "count": 1
+    },
+    {
+      "text": "servicios de voz",
+      "relevance": 0.522479,
+      "count": 1
+    },
+    {
+      "text": "primer asistente de astronauta de Inteligencia Artificial",
+      "relevance": 0.520893,
+      "count": 1
+    },
+    {
+      "text": "mayor capacidad",
+      "relevance": 0.520525,
+      "count": 1
+    },
+    {
+      "text": "actividades de investigación",
+      "relevance": 0.517212,
+      "count": 1
+    },
+    {
+      "text": "capacidades de conversación",
+      "relevance": 0.511608,
+      "count": 1
+    },
+    {
+      "text": "texto de Watson",
+      "relevance": 0.510756,
+      "count": 1
+    },
+    {
+      "text": "arquitecto principal de IBM Watson",
+      "relevance": 0.509967,
+      "count": 1
+    },
+    {
+      "text": "Estación Espacial.Foto",
+      "relevance": 0.506776,
+      "count": 1
+    },
+    {
+      "text": "Nuevos micrófonos",
+      "relevance": 0.506395,
+      "count": 1
+    },
+    {
+      "text": "CIMON-2",
+      "relevance": 0.501366,
+      "count": 3
+    },
+    {
+      "text": "Inteligencia Artificial de sus componentes",
+      "relevance": 0.501257,
+      "count": 1
+    },
+    {
+      "text": "reconocimiento de voz",
+      "relevance": 0.500321,
+      "count": 1
+    },
+    {
+      "text": "patrones de respuesta",
+      "relevance": 0.499543,
+      "count": 1
+    },
+    {
+      "text": "actividades de investigación gracias",
+      "relevance": 0.498621,
+      "count": 1
+    },
+    {
+      "text": "aditamentos de alta tecnología",
+      "relevance": 0.498452,
+      "count": 1
+    },
+    {
+      "text": "comandos de voz",
+      "relevance": 0.495733,
+      "count": 1
+    },
+    {
+      "text": "emociones de los astronautas",
+      "relevance": 0.493798,
+      "count": 2
+    },
+    {
+      "text": "Crew Interactive Mobile Companion",
+      "relevance": 0.493063,
+      "count": 1
+    },
+    {
+      "text": "compañero móvil interactivo de la tripulación",
+      "relevance": 0.492919,
+      "count": 1
+    },
+    {
+      "text": "altavoz de alta precisión",
+      "relevance": 0.490159,
+      "count": 1
+    },
+    {
+      "text": "manera apropiada",
+      "relevance": 0.489662,
+      "count": 1
+    },
+    {
+      "text": "robot",
+      "relevance": 0.489516,
+      "count": 2
+    },
+    {
+      "text": "IBM Watson Tone Analyzer",
+      "relevance": 0.488061,
+      "count": 1
+    },
+    {
+      "text": "WhatsApp de Uno TV",
+      "relevance": 0.487215,
+      "count": 1
+    },
+    {
+      "text": "componentes de IA.Foto",
+      "relevance": 0.48615,
+      "count": 1
+    },
+    {
+      "text": "astronauta",
+      "relevance": 0.484026,
+      "count": 2
+    },
+    {
+      "text": "voz",
+      "relevance": 0.483527,
+      "count": 1
+    },
+    {
+      "text": "espacio",
+      "relevance": 0.483421,
+      "count": 3
+    },
+    {
+      "text": "primer astronauta de Inteligencia Artificial",
+      "relevance": 0.480333,
+      "count": 1
+    },
+    {
+      "text": "abuso de autoridad",
+      "relevance": 0.479497,
+      "count": 1
+    },
+    {
+      "text": "transcripción de mensajes",
+      "relevance": 0.479497,
+      "count": 1
+    },
+    {
+      "text": "Airbus",
+      "relevance": 0.478843,
+      "count": 1
+    },
+    {
+      "text": "agosto",
+      "relevance": 0.47875,
+      "count": 1
+    }
+  ],
+  "entities": [
+    {
+      "type": "Company",
+      "text": "IBM",
+      "relevance": 0.937946,
+      "disambiguation": {
+        "subtype": [
+          "SoftwareLicense",
+          "Organization",
+          "OperatingSystemDeveloper",
+          "ProcessorManufacturer",
+          "SoftwareDeveloper",
+          "CompanyFounder",
+          "ProgrammingLanguageDesigner",
+          "ProgrammingLanguageDeveloper"
+        ],
+        "name": "IBM",
+        "dbpedia_resource": "http://es.dbpedia.org/resource/IBM"
+      },
+      "count": 4
+    },
+    {
+      "type": "Quantity",
+      "text": "14 meses",
+      "relevance": 0.778367,
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Matthias Biniok",
+      "relevance": 0.759146,
+      "count": 2
+    },
+    {
+      "type": "Company",
+      "text": "de IBM",
+      "relevance": 0.674058,
+      "count": 1
+    },
+    {
+      "type": "Organization",
+      "text": "Centro Aeroespacial Alemán",
+      "relevance": 0.667889,
+      "count": 1
+    },
+    {
+      "type": "Facility",
+      "text": "Estación Espacial Internacional",
+      "relevance": 0.540616,
+      "count": 1
+    },
+    {
+      "type": "Organization",
+      "text": "Airbus",
+      "relevance": 0.47282,
+      "disambiguation": {
+        "subtype": [
+          "Company",
+          "AircraftManufacturer"
+        ],
+        "name": "Airbus",
+        "dbpedia_resource": "http://es.dbpedia.org/resource/Airbus"
+      },
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "IBM Watson",
+      "relevance": 0.325725,
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Tone Analyzer",
+      "relevance": 0.322224,
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "IBM Watson Assistant",
+      "relevance": 0.292652,
+      "count": 1
+    },
+    {
+      "type": "Location",
+      "text": "Alemania",
+      "relevance": 0.219519,
+      "disambiguation": {
+        "subtype": [
+          "Country",
+          "GovernmentalJurisdiction",
+          "Country"
+        ],
+        "name": "Alemania",
+        "dbpedia_resource": "http://es.dbpedia.org/resource/Alemania"
+      },
+      "count": 1
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Estación Espacial Internacional",
+      "relevance": 0.994274,
+      "dbpedia_resource": "http://es.dbpedia.org/resource/Estación_Espacial_Internacional"
+    },
+    {
+      "text": "Inteligencia artificial",
+      "relevance": 0.984946,
+      "dbpedia_resource": "http://es.dbpedia.org/resource/Inteligencia_artificial"
+    },
+    {
+      "text": "Tecnología",
+      "relevance": 0.89958,
+      "dbpedia_resource": "http://es.dbpedia.org/resource/Tecnología"
+    },
+    {
+      "text": "Micrófono",
+      "relevance": 0.827133,
+      "dbpedia_resource": "http://es.dbpedia.org/resource/Micrófono"
+    },
+    {
+      "text": "Astronauta",
+      "relevance": 0.756193,
+      "dbpedia_resource": "http://es.dbpedia.org/resource/Astronauta"
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.683488,
+      "label": "/technology and computing/hardware/computer"
+    },
+    {
+      "score": 0.62437,
+      "label": "/technology and computing/hardware/computer peripherals/computer monitors"
+    },
+    {
+      "score": 0.60821,
+      "label": "/technology and computing/operating systems"
+    }
+  ]
+}

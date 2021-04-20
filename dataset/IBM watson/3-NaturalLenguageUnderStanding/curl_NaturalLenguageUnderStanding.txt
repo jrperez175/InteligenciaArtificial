@@ -1,0 +1,98 @@
+Sintaxis
+
+Url
+curl -X POST -u "apikey:{api}" \
+"{url}/v1/analyze?version=2019-07-12" \
+--request POST \
+--header "Content-Type: application/json" \
+--data '{
+  "text": "Esta en una super ubicacion El servicio pesimo, gente grosera",
+  "features": {
+    "sentiment": {
+      "targets": [
+        "ubicacion",
+        "servicio"
+      ]
+    },
+    "keywords": {
+      "emotion": true
+    }
+  }
+}'
+
+
+Windows
+curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"url\":\"http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver\",\"features\":{\"sentiment\":{},\"categories\":{},\"concepts\":{},\"entities\":{},\"keywords\":{}}}" "{url}/v1/analyze?version=2019-07-12"
+
+
+Texto
+
+curl -X POST -u "apikey:{apikey}" \
+--header "Content-Type: application/json" \
+--data '{
+  "text": "I love apples! I do not like oranges.",
+  "features": {
+    "sentiment": {
+      "targets": [
+        "apples",
+        "oranges",
+        "broccoli"
+      ]
+    },
+    "keywords": {
+      "emotion": true
+    }
+  }
+}' \
+"{url}/v1/analyze?version=2019-07-12"
+
+Windows
+
+curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"text\":\"I love apples! I do not like oranges.\",\"features\":{\"sentiment\":{\"targets\":[\"apples\",\"oranges\",\"broccoli\"]},\"keywords\":{\"emotion\":true}}}" "{url}/v1/analyze?version=2019-07-12"
+
+Ejemplo con url
+
+curl -X POST -u "apikey:ALBdvclZ4-9pEo8yUYeJhaE_DMbx2P3jSgcC7F0iQPIV" \
+"https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/eb6560e0-75a9-4e3c-8edd-066da45e71e4/v1/analyze?version=2018-11-16" \
+--header "Content-Type: application/json" \
+--data '{
+  "url": "https://www.unotv.com/noticias/portal/tecnologia/detalle/conoce-a-cimon-primer-astronauta-hecho-de-inteligencia-artificial-394114/",
+  "features": {
+    "sentiment": {},
+    "categories": {},
+    "concepts": {},
+    "entities": {},
+    "keywords": {}
+  }
+}'
+
+curl -X POST -u "apikey:ALBdvclZ4-9pEo8yUYeJhaE_DMbx2P3jSgcC7F0iQPIV" --header "Content-Type: application/json" --data "{\"url\":\"https://www.unotv.com/noticias/portal/tecnologia/detalle/conoce-a-cimon-primer-astronauta-hecho-de-inteligencia-artificial-394114\",\"features\":{\"sentiment\":{},\"categories\":{},\"concepts\":{},\"entities\":{},\"keywords\":{}}}" "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/eb6560e0-75a9-4e3c-8edd-066da45e71e4/v1/analyze?version=2019-07-12"
+
+Ejemplo con texto
+
+curl -X POST -u "apikey:ALBdvclZ4-9pEo8yUYeJhaE_DMbx2P3jSgcC7F0iQPIV" \
+"https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/eb6560e0-75a9-4e3c-8edd-066da45e71e4/v1/analyze?version=2019-07-12" \
+--request POST \
+--header "Content-Type: application/json" \
+--data '{
+  "text": "Esta en una super ubicacion El servicio pesimo, gente grosera",
+  "features": {
+    "sentiment": {
+      "targets": [
+        "ubicacion",
+        "servicio"
+      ]
+    },
+    "keywords": {
+      "emotion": true
+    }
+  }
+}'
+
+
+
+
+curl -X POST -u "apikey:ALBdvclZ4-9pEo8yUYeJhaE_DMbx2P3jSgcC7F0iQPIV" --header "Content-Type: application/json" --data "{\"text\":\"Esta en una excelente ubicacion, El servicio pesimo, gente grosera\",\"features\":{\"sentiment\":{\"targets\":[\"ubicacion\",\"servicio\"]},\"keywords\":{\"emotion\":true}}}" "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/eb6560e0-75a9-4e3c-8edd-066da45e71e4/v1/analyze?version=2019-07-12"
+
+
+curl -X POST -u "apikey:ALBdvclZ4-9pEo8yUYeJhaE_DMbx2P3jSgcC7F0iQPIV" --header "Content-Type: application/json" --data "{\"text\":\"I love apples! I do not like oranges.\",\"features\":{\"sentiment\":{\"targets\":[\"apples\",\"oranges\",\"broccoli\"]},\"keywords\":{\"emotion\":true}}}" "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/eb6560e0-75a9-4e3c-8edd-066da45e71e4/v1/analyze?version=2019-07-12"

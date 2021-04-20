@@ -1,0 +1,25 @@
+curl -X POST -u "apikey:xQL5UhF7ajhPb2W-ptf5e9aBGXS1D9af_ovPz_PLo6X6" \
+--header "Content-Type: text/plain;charset=utf-8" \
+--header "Accept: application/json" \
+--data-binary @profile.txt \
+"https://api.us-south.personality-insights.watson.cloud.ibm.com/instances/ac602ecd-ec04-4a08-8769-344075001dec/v3/profile?version=2017-10-13"
+
+
+curl -X POST -u "apikey:xQL5UhF7ajhPb2W-ptf5e9aBGXS1D9af_ovPz_PLo6X6" ^
+--header "Content-Type: text/plain;charset=utf-8" ^
+--header "Accept: application/json" ^
+--data-binary @profile2.txt ^
+"https://api.us-south.personality-insights.watson.cloud.ibm.com/instances/ac602ecd-ec04-4a08-8769-344075001dec/v3/profile?version=2017-10-13"
+
+curl -X POST -u "apikey:xQL5UhF7ajhPb2W-ptf5e9aBGXS1D9af_ovPz_PLo6X6" `
+--header "Content-Type: text/plain;charset=utf-8" `
+--header "Accept: application/json" `
+--data-binary profile.txt `
+"https://api.us-south.personality-insights.watson.cloud.ibm.com/instances/ac602ecd-ec04-4a08-8769-344075001dec/v3/profile?version=2017-10-13"
+
+Para enviar a un archivo de texto
+curl -X POST -o response.txt -u "apikey:xQL5UhF7ajhPb2W-ptf5e9aBGXS1D9af_ovPz_PLo6X6" \
+--header "Content-Type: text/plain;charset=utf-8" \
+--header "Accept: application/json" \
+--data-binary @profile3.txt \
+"https://api.us-south.personality-insights.watson.cloud.ibm.com/instances/ac602ecd-ec04-4a08-8769-344075001dec/v3/profile?version=2017-10-13"

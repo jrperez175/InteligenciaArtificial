@@ -1,0 +1,22 @@
+curl -X POST -u "apikey:{apikey}" \
+--header "Content-Type: application/json" \
+--header "Accept: audio/wav" \
+--data "{\"text\":\"hello world\"}" \
+--output hello_world.wav \
+"{url}/v1/synthesize?voice={voz}"
+
+
+curl -X POST -u "apikey:dLbBNY9vTQr0YwQgGOQBfMYp6LN2h4_Pi57lO93qItx3" \
+--header "Content-Type: application/json" \
+--header "Accept: audio/wav" \
+--data "{\"text\":\"hola mundo\"}" \
+--output hola_mundo.wav \
+"https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/19366c94-e520-4edd-9f6f-e2c575b35520/v1/synthesize?voice=es-LA_SofiaV3Voice"
+
+Windos
+curl -X POST -u "apikey:dLbBNY9vTQr0YwQgGOQBfMYp6LN2h4_Pi57lO93qItx3" ^
+--header "Content-Type: application/json" ^
+--header "Accept: audio/wav" ^
+--data "{\"text\":\"Hola Mundo\"}" ^
+--output hola_mundo2.wav ^
+"https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/19366c94-e520-4edd-9f6f-e2c575b35520/v1/synthesize?voice=es-LA_SofiaV3Voice"

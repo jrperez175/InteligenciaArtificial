@@ -1,0 +1,11 @@
+|Api Name|Description|Category|Link
+1| Google Maps API| [This API is no longer available. Google Maps' services have been split into multiple APIs, including the Static Maps API, Street View Image API, Directions APIs, Distance Matrix API, Elevation API,...| Mapping|https://www.programmableweb.com/api/google-maps
+2| Twitter API|" [This API is no longer available. It has been split into multiple APIs, including the Twitter Ads API, Twitter Search Tweets API, and Twitter Direct Message API.
+This profile is maintained for..."| Social|https://www.programmableweb.com/api/twitter
+3| Shopping.com API|" [This API has been acquired by eBay and now exists as eBay Commerce Network. This profile is being maintained purely for historical and research purposes.]
+With the Shopping.com API you can..."| eCommerce|https://www.programmableweb.com/api/shoppingcom
+4| Google Analytics Managment API| Use the Google Analytics Management API to leverage Google's extensive website analytics tools. The API uses GET requests over HTTPS and JSON for requests/returns. Some of the functions available...| Analytics|https://www.programmableweb.com/api/google-analytics-managment
+5| Yahoo Local Search API| The Yahoo! Local Search APIs give users access to a comprehensive database of information and content in Yahoo! Local ranging from business information to user comments to ratings. Data includes...| Search|https://www.programmableweb.com/api/yahoo-local-search
+6| Panoramio API| (Deprecated in November, 2016) Using Panoramio API users can display the photos from Panoramio on their own web site. Geolocated photos from Panoramio can enrich maps or illustrate information where...| Photos|https://www.programmableweb.com/api/panoramio
+7| Salesforce API| Salesforce.com API provides programmatic access to an organizationï¿½s information and allows developers to implement custom functionality. The worldwide leader in on-demand customer relationship...| Enterprise|https://www.programmableweb.com/api/salesforce
+8| Facebook Graph API| The Graph API is a simple, consistent view of the Facebook social graph, that uniformly represents objects in the graph and may include people, photos, events, and pages etc., the connections between...| Social|https://www.programmableweb.com/api/facebook-graph

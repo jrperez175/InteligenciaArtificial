@@ -1,0 +1,24 @@
+Imagenes_PC
+
+curl -X POST -u "apikey:{apikey}" -F "images_file=@{imagen}" \
+-F "classifier_ids={classifier_id}" "{url}/v3/classify?version=2018-03-19"
+
+classifier_id = default, food
+
+curl -X POST -u "apikey:pgejP1ktarPOm6qlNfhN4NO7dbF_J3vlM0fSnYSS4q-C" -F "images_file=@taco-1018962_1280.jpg" \
+-F "classifier_ids=default" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/05b28639-e402-48d0-8bc0-92bcc591997d/v3/classify?version=2018-03-19"
+
+curl -X POST -u "apikey:pgejP1ktarPOm6qlNfhN4NO7dbF_J3vlM0fSnYSS4q-C" -F "images_file=@chihuahua-624924_1280.jpg" \
+-F "classifier_ids=default" "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/05b28639-e402-48d0-8bc0-92bcc591997d/v3/classify?version=2018-03-19"
+
+
+Imagens_Url
+Comidas
+curl -u "apikey:{apikey}" -F "classifier_ids=food" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?url={url_imagen}&version=2018-03-19"
+
+
+Imagenes
+curl -u "apikey:{apikey}" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?url={url_imagen}&version=2018-03-19"
+
+curl -X POST -u "apikey:pgejP1ktarPOm6qlNfhN4NO7dbF_J3vlM0fSnYSS4q-C" -F "images_file=@chichen-itza-3887508_1280.jpg" \
+-F "threshold=0.6" -F "classifier_ids=DefaultCustomModel_637366347" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19"

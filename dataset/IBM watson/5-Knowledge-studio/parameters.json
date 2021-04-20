@@ -1,0 +1,14 @@
+{
+  "url": "www.despegar.com.co",
+  "features": {
+    "categories": {
+      "model": "e0770be2-2601-40e2-acb7-188c374786bc"
+    },
+    "entities": {
+      "model": "e0770be2-2601-40e2-acb7-188c374786bc"
+    },
+    "relations": {
+      "model": "e0770be2-2601-40e2-acb7-188c374786bc"
+    }
+  }
+}
